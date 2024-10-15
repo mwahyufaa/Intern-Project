@@ -4,8 +4,8 @@ import numpy as np
 from scipy import stats
 
 # Read data from an Excel file
-file_path = 'KPWOI.xlsx'
-sheet_name = 'Sheet2'
+file_path = 'data/data.xlsx'
+sheet_name = 'plot-data-1'
 
 # Load the data from the specified sheet
 data = pd.read_excel(file_path, sheet_name=sheet_name)

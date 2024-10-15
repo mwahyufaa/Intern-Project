@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 
 # Read data from an Excel file
-file_path = 'KPWOI.xlsx'
-sheet_name = 'Sheet5' #Sheetn
+file_path = 'data/data.xlsx'
+sheet_name = 'plot-data-1'
 
 # Load the data from the specified sheet
 data = pd.read_excel(file_path, sheet_name=sheet_name)
